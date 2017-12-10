@@ -44,3 +44,7 @@ heroku open
 - add securing keys
 - add google strategy options
 - add google auth callback
+
+5. MongoDb
+- create new db -> https://mlab.com/
+- npm install --save mongoose

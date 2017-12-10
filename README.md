@@ -20,3 +20,7 @@ git add .
 git commit -m "first"
 git remote add heroku https://git.heroku.com/arcane-gorge-54390.git
 git push heroku master
+
+# BUILDING STEPS
+1. npm init
+2. npm install --save express

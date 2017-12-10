@@ -18,8 +18,8 @@ npm start
 git init
 git add .
 git commit -m "first"
-git remote add heroku https://git.heroku.com/whispering-beyond-68424.git
-git push heroku master
+git remote add orgin https://github.com/ghost717/react-app.git
+git push
 
 # BUILDING STEPS
 1. npm init
@@ -39,3 +39,5 @@ git remote add heroku https://git.heroku.com/whispering-beyond-68424.git
 git push heroku master
 
 4. google auth
+- npm install --save passport passport-google-oauth20
+- 

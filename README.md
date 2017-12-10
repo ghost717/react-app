@@ -18,9 +18,24 @@ npm start
 git init
 git add .
 git commit -m "first"
-git remote add heroku https://git.heroku.com/arcane-gorge-54390.git
+git remote add heroku https://git.heroku.com/whispering-beyond-68424.git
 git push heroku master
 
 # BUILDING STEPS
 1. npm init
-2. npm install --save express
+2. add express
+- npm install --save express
+- add index.js
+- edit package.json
+- add .gitignore
+
+3. add heroku
+- heroku login
+- heroku create
+git init
+git add .
+git commit -m "first"
+git remote add heroku https://git.heroku.com/whispering-beyond-68424.git
+git push heroku master
+
+4. google auth

@@ -10,6 +10,15 @@ mongoose.connect(keys.mongoURI);
 
 const app = express();
 
+/*
+//listing plikow
+const serveIndex = require('serve-index');
+const bodyParser = require('body-parser');
+app.use(bodyParser())
+.use(express.static(__dirname + "/"))
+.use('/temp', serveIndex(__dirname + '/temp', {'icons': true}));
+*/
+
 app.use(
 	cookieSession({
 		maxAge: 30*24*60*60*1000,
@@ -18,6 +27,7 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+
 
 require('./routes/authRoutes')(app);
 

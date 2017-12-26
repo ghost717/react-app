@@ -1,5 +1,9 @@
 # react-app
 
+# TODO
+- /temp jako /localApi
+
+
 # START / KOMENDY
 npm start
 npm run dev

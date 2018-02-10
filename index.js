@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const keys = require('./config/keys');
+
+const path = require('path');
+
 require('./models/User');
 require('./services/passport');
 
@@ -17,6 +20,10 @@ const bodyParser = require('body-parser');
 app.use(bodyParser())
 .use(express.static(__dirname + "/"))
 .use('/temp', serveIndex(__dirname + '/temp', {'icons': true}));
+*/
+/*
+app.engine('jade', require('jade').__express);
+app.set('view engine','jade');
 */
 
 app.use(

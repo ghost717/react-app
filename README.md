@@ -2,7 +2,11 @@
 
 # TODO
 - /temp jako /localApi
-
+- branche
+git add 'test'
+git commit -m "test branch"
+git checkout -b <test>
+git push origin tes
 
 # START / KOMENDY
 npm start
@@ -52,3 +56,7 @@ heroku open
 5. MongoDb
 - create new db -> https://mlab.com/
 - npm install --save mongoose
+
+6. ReactApp
+- create-react-app client
+- create react app proxy - > package.json

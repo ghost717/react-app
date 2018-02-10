@@ -1,6 +1,5 @@
 const passport = require('passport');
 
-
 module.exports = app => {
 	app.get(
 		'/auth/google',
@@ -22,5 +21,11 @@ module.exports = app => {
 	
 	app.get('/', (req, res) => {
 		res.send(req.user);
+	});
+
+	app.get('/localApi', (req, res) => {
+			//viewname can include or omit the filename extension
+			res.render(__dirname + '/temp'); 
+		
 	});
 };
